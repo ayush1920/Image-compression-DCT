@@ -18,7 +18,7 @@ import matplotlib.pylab as pylab
 np.set_printoptions(precision=3)
 np.set_printoptions(suppress=True)
 
-DEBUG = True
+DEBUG = False
 # Reading Image
 im = cv2.imread("nature.png",1)
 
